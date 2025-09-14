@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Community skill sharing platform with video integration",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "lint": "eslint 'src/**/*.ts'",
     "db:generate": "drizzle-kit generate",
